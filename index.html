@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RankMitra Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>🎯 RankMitra</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">SSC Tools</a>
+                <a href="#">RRB Tools</a>
+                <a href="#">BSPHCL Tools</a>
+                <a href="#">SHSB Tools</a>
+                <a href="#">Contact</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Disclaimer</a>
+
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h2>🚀 Get Your Exam Rank & Score Instantly</h2>
+        <p>🎓 Accurate and fast prediction tools for SSC, CHSL, CGL, RRB exams and more!</p>
+    </section>
+    <div class="score-box">
+        <img src="https://icon-library.com/images/new-gif-icon/new-gif-icon-14.jpg" alt="New" class="new-badge">
+        <h3>🎯 Use This Score Calculator If You Can Not Find Your Exam Below:</h3>
+        <div class="calculator-box">
+            <span>🏅</span> Marks Calculator <span>🏅</span>
+        </div>
+    </div>
+
+    <section class="tools">
+        <div class="tool-card" onclick="redirectToTool('bsphcl')">
+            <h3>🧮 BSPHCL Clerk & Store Assistant 2025</h3>
+            <p>Marks Calculator (New)</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('nmmc-je')">
+            <h3>🏗️ MH NMMC JE 2025</h3>
+            <p>Marks Calculator (New)</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('shsb-cho')">
+            <h3>👩‍⚕️ Bihar SHSB CHO 2025</h3>
+            <p>Rank & Marks Calculator (New)</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('dfccil')">
+            <h3>🚆 DFCCIL Various Post 2025</h3>
+            <p>Rank & Marks Calculator (New)</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('aai-atc')">
+            <h3>🛫 AAI Junior Executive (ATC) 2025</h3>
+            <p>Rank & Marks Calculator (New)</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('rrb-ntpc-cbt1')">
+            <h3>🚄 RRB NTPC CBT-I 2025</h3>
+            <p>Rank & Marks Calculator</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('rrb-alp-cbt2')">
+            <h3>🚉 RRB ALP CBT-2 2024-25</h3>
+            <p>Rank & Marks Calculator</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('rrb-paramedical')">
+            <h3>🧬 RRB Paramedical 2024-25</h3>
+            <p>Rank & Marks Calculator</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('rrb-je-cbt2')">
+            <h3>🧪 RRB JE CBT-2 2024-25</h3>
+            <p>Rank & Marks Calculator</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('sci-jca')">
+            <h3>⚖️ SCI JCA 2025</h3>
+            <p>Rank & Marks Calculator</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('mppkvvcl-je')">
+            <h3>🔌 MPPKVVCL JE 2024-25</h3>
+            <p>Rank & Marks Calculator</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('rrb-rpf-constable')">
+            <h3>🚔 RRB RPF Constable 2024-25</h3>
+            <p>Rank & Marks Calculator</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('ssc-cpo-mains')">
+            <h3>🕵️‍♂️ SSC CPO Mains 2024</h3>
+            <p>Rank Predictor & Score Calculator</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('ssc-gd')">
+            <h3>🔫 SSC GD 2025</h3>
+            <p>Marks Calculator & Rank Predictor</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('ssc-cgl-mains')">
+            <h3>📈 SSC CGL Mains 2024</h3>
+            <p>Rank & Marks Calculator</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('rrb-technician-3')">
+            <h3>🧰 RRB Technician Grade-3 2024</h3>
+            <p>Rank & Marks Calculator</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('rrb-technician-1')">
+            <h3>⚙️ RRB Technician Grade-I 2024</h3>
+            <p>Rank & Marks Calculator</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('rrb-je-cbt1')">
+            <h3>🧪 RRB JE CBT-1 2024</h3>
+            <p>Rank & Marks Calculator</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('rrb-rpf-si')">
+            <h3>🚨 RRB RPF SI 2024</h3>
+            <p>Rank & Marks Calculator</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('ssc-steno')">
+            <h3>📝 SSC Stenographer 2024</h3>
+            <p>Score & Rank Predictor</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('ssc-hindi-translator')">
+            <h3>🈶 SSC Hindi Translator 2024</h3>
+            <p>Rank Predictor & Marks Calculator</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('rrb-alp-cbt1')">
+            <h3>🚂 RRB ALP CBT-1 2024</h3>
+            <p>Rank & Marks Calculator</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('ssc-mts')">
+            <h3>📋 SSC MTS 2024</h3>
+            <p>Rank & Marks Calculator</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('ssc-chsl-mains')">
+            <h3>📄 SSC CHSL Mains 2024</h3>
+            <p>Marks Calculator & Rank Predictor</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('ssc-je-mains')">
+            <h3>🏗️ SSC JE Mains 2024</h3>
+            <p>Marks Calculator & Rank Predictor</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('ssc-cgl-pre')">
+            <h3>📊 SSC CGL Pre 2024</h3>
+            <p>Rank & Marks Calculator</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('ssc-chsl-tier1')">
+            <h3>📄 SSC CHSL Tier-I 2024</h3>
+            <p>Marks Calculator & Rank Predictor</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('ssc-cpo-pre')">
+            <h3>👮 SSC CPO Pre 2024</h3>
+            <p>Marks Calculator & Rank Predictor</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('ssc-selection-post')">
+            <h3>📚 SSC Selection Post (Phase-XII) 2024</h3>
+            <p>Marks Calculator & Rank Predictor</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('ssc-je-pre')">
+            <h3>🏗️ SSC JE Pre 2024</h3>
+            <p>Marks Calculator & Rank Predictor</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('bihar-deled')">
+            <h3>📖 Bihar D.El.Ed</h3>
+            <p>Marks Calculator & Rank Predictor</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('odisha-forest-guard')">
+            <h3>🌲 Odisha Forest Guard</h3>
+            <p>Marks Calculator & Rank Predictor</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('delhi-police')">
+            <h3>👮‍♂️ Delhi Police Constable 2023</h3>
+            <p>Marks Calculator & Rank Predictor</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('ssc-cpo-pre-2023')">
+            <h3>🕵️ SSC CPO PRE 2023</h3>
+            <p>Score & Rank Predictor</p>
+        </div>
+        <div class="tool-card" onclick="redirectToTool('epfo-ssa')">
+            <h3>💼 EPFO SSA</h3>
+            <p>Marks & Rank Check</p>
+        </div>
+    </section>
+    <div class="video-section">
+        <h2>🎥 Video - How To Submit Answer Key?</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=I_8wDLzb6Oc&t=3s"
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+      clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>© 2025 RankMitra Clone | Built for educational 🧠</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
